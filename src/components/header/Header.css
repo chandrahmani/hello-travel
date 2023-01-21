@@ -19,7 +19,7 @@
 }
 
 .form-conatiner {
-    background-color: #cccc;
+    background-color: #fff;
     border-radius: 5px;
     margin-top: 2rem;
     margin-right: 2rem;
@@ -28,8 +28,43 @@
 .form-conatiner input {
     position: relative;
     top: 8px;
-    left: 40px;
+    left: 16px;
     margin: 1rem;
-    font-size: 17px;
+    font-size: 15px;
+    padding: 0.6rem;
+    width: 83%;
+    border: 1px solid #ccc;
+    background: #fff;
     border-radius: 5px;
+}
+
+.btn {
+    position: relative;
+    top: 8px;
+    left: 16px;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 83%;
+    background-color: #f7961c;
+}
+
+.msg {
+    display: block;
+    margin-left: 3rem;
+}
+
+.info-wrapper {
+    background: linear-gradient(45deg, #f5d105, #28a74500);
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+
+}
+
+.txt-style {
+    margin: 1rem;
 }
