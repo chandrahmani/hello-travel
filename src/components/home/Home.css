@@ -1,0 +1,35 @@
+.conatiner {
+    background-image: url(https://kashmirtravelagent.com/images/banner1.jpg);
+    height: 60vh;
+    display: flex;
+}
+
+.title-heading .txt {
+    font-size: 56px !important;
+    letter-spacing: 0px;
+    /* font-weight: 700; */
+    text-transform: capitalize;
+    line-height: 58px;
+    max-width: 66%;
+    margin-left: 2rem;
+}
+
+.txt-primary {
+    color: #f7961c !important;
+}
+
+.form-conatiner {
+    background-color: #cccc;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.form-conatiner input {
+    position: relative;
+    top: 8px;
+    left: 40px;
+    margin: 1rem;
+    font-size: 17px;
+    border-radius: 5px;
+}
