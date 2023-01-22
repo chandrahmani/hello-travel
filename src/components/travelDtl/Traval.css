@@ -6,9 +6,14 @@
     color: #000;
 }
 
+.cards-info {
+    background-color: #e7f1fb !important;
+}
+
 .grid-item {
     padding: 6px;
     font-size: 30px;
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -25,11 +30,43 @@
 
 .tag-sale {
     background-color: #ffe90399;
+
 }
 
 
 img {
     max-width: 350px;
+    border-radius: 5px;
+}
+
+.info-wrappers h3 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+h4 {
+    font-size: 17px;
+    padding: 5px;
+}
+
+p {
+    font-size: 18px;
+    padding: 4px;
+}
+
+.btns {
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: #f7961c;
+}
+
+.info-wrappers {
+    background-color: #f6f6fb;
+    border-radius: 5px;
+}
+
+.info-wrappers:hover {
+    background-color: #dcdce2;
 }
 
 @media screen and (max-width:900px) {
