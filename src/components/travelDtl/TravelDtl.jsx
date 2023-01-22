@@ -8,18 +8,23 @@ const TravelDtl = () => {
         <>
             <section className="cards-info">
                 <div class="grid-container">
+                    <div class="grid-item"> <span className="offer">70% off </span>
+                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /><span className="tag">4N/5D</span></div>
+
                     <div class="grid-item"> <span className="offer">70% off</span>
-                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /></div>
+                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /><span className="tag">4N/5D</span></div>
+
                     <div class="grid-item"> <span className="offer">70% off</span>
-                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /></div>
+                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /><span className="tag">4N/5D</span></div>
+
                     <div class="grid-item"> <span className="offer">70% off</span>
-                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /></div>
+                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /><span className="tag">4N/5D</span></div>
+
                     <div class="grid-item"> <span className="offer">70% off</span>
-                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /></div>
+                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /><span className="tag">4N/5D</span></div>
+
                     <div class="grid-item"> <span className="offer">70% off</span>
-                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /></div>
-                    <div class="grid-item"> <span className="offer">70% off</span>
-                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /></div>
+                        <img src="https://kashmirtravelagent.com/images/travel/1.jpg" /><span className="tag">4N/5D</span></div>
                 </div>
 
             </section>

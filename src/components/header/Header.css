@@ -10,7 +10,13 @@
     /* font-weight: 700; */
     text-transform: capitalize;
     line-height: 58px;
-    max-width: 66%;
+    max-width: 68%;
+    margin-left: 2rem;
+}
+
+.deals {
+    color: #8492a6 !important;
+    font-size: 18px;
     margin-left: 2rem;
 }
 
@@ -67,4 +73,37 @@
 
 .txt-style {
     margin: 1rem;
+}
+
+.tag {
+    display: flex;
+    flex-direction: column-reverse;
+    background: #ffe90399;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+@media screen and (max-width:900px) {
+    .title-heading .txt {
+        font-size: 36px !important;
+        letter-spacing: 0px;
+        /* font-weight: 700; */
+        text-transform: capitalize;
+        line-height: 43px;
+        max-width: 62%;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .title-heading .txt {
+        font-size: 30px !important;
+        letter-spacing: 0px;
+        /* font-weight: 700; */
+        text-transform: capitalize;
+        line-height: 33px;
+        max-width: 62%;
+        margin-left: 2rem;
+    }
 }
