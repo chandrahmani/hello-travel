@@ -75,7 +75,10 @@ const Servic = () => {
                         <img src='https://kashmirtravelagent.com/images/kashmir.png' />
                     </div>
                 </div>
-                <button>Talk To An Expert</button>
+                <div className='exp-wrp'>
+                    <button className='exp-btn'>Talk To An Expert</button>
+                </div>
+
             </section>
         </>
 
