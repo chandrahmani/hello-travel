@@ -62,7 +62,7 @@ const Servic = () => {
             </section >
 
             <section className='section-tow'>
-                <div className='section-conatiner'>
+                <div className='section-conatiner' >
 
                     <p>
                         <span className='txt'>About Kashmir Tourism</span>< br />
@@ -76,7 +76,6 @@ const Servic = () => {
                     </div>
                 </div>
                 <button>Talk To An Expert</button>
-
             </section>
         </>
 
