@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="form-wrapper">
                     <form onSubmit={handleSubmit(onSubmit)} className="form-conatiner">
 
-                        <div>
+                        <div className="img-align">
                             <img src="https://kashmirtravelagent.com/images/kta-logo.png" />
                         </div>
                         <input

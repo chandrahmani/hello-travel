@@ -33,6 +33,14 @@
 
 }
 
+.box {
+    background: #fff;
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+}
+
 
 img {
     max-width: 350px;

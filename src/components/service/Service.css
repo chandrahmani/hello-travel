@@ -9,6 +9,16 @@
     padding: 1.5rem;
 }
 
+.titles {
+    font-size: 21px;
+    color: #3c4858;
+    font-weight: 500;
+}
+
+.titles:hover {
+    color: #ffc107;
+    transition: all 0.5s ease;
+}
 
 .servic-wrp {
     display: flex;
@@ -36,4 +46,13 @@
     text-align: center;
     font-size: 17px;
     padding: 2rem;
+}
+
+.section-conatiner {
+    display: flex;
+}
+
+.txt {
+    font-size: 40px;
+    font-weight: 500;
 }
