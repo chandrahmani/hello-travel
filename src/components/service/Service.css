@@ -50,9 +50,16 @@
 
 .section-conatiner {
     display: flex;
+    padding: 2rem 5rem 0;
 }
 
 .txt {
     font-size: 40px;
     font-weight: 500;
+}
+
+.exp-btn {
+    background-color: #d87c08;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
 }
