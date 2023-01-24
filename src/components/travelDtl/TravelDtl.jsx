@@ -1,10 +1,18 @@
-import { useState } from "react"
-import { travelData } from "../../data"
+import { useEffect, useState } from "react"
+
 import Servic from "../service/Servic"
 import './Traval.css'
 
 const TravelDtl = () => {
-    const [data, setData] = useState(travelData)
+    const [data, setData] = useState([])
+
+    const travelData = () => {
+
+    }
+
+    useEffect(() => {
+
+    }, [])
     return (
         <>
             <section className="cards-info">

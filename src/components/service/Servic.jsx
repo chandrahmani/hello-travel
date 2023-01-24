@@ -1,3 +1,4 @@
+import Adventor from '../adventur/Adventur';
 import './Service.css'
 
 const Servic = () => {
@@ -80,6 +81,8 @@ const Servic = () => {
                 </div>
 
             </section>
+
+            <Adventor />
         </>
 
 
