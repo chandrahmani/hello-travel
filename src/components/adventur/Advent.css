@@ -1,3 +1,37 @@
 .advent-container {
     display: flex;
+    padding: 4rem;
+}
+
+.anchor {
+    background-color: #f7961c !important;
+    padding: 0.7rem;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #5d3d90 !important;
+}
+
+.txts {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    height: 20vh;
+    padding: 1rem;
+}
+
+.bttn {
+    background-color: #fff;
+    color: black;
+}
+
+.bttn:hover {
+    background-color: #f7961c;
+    transition: all 0.5s ease;
+}
+
+.bttn-wrp {
+    padding-bottom: 2rem;
+    margin-left: 4rem;
 }

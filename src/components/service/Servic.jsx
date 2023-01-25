@@ -7,8 +7,8 @@ const Servic = () => {
         <>
             <section >
                 <div className="service-section">
-                    <div class="container">
-                        <div class="heading-dtl">
+                    <div className="container">
+                        <div className="heading-dtl">
                             <h1>Complete Traveling Services</h1>
                             <p className='color'>Plan as you want to. Book your desired hotels & tour packages. Book only what you want. No rigid itineraries. Nowhere else would you find a more flexible plan. </p>
                         </div>
