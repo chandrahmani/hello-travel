@@ -67,3 +67,19 @@
 .imgs img {
     height: 366px;
 }
+
+@media screen and (max-width: 880px) {
+    .servic-wrp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .section-conatiner {
+        display: flex;
+        flex-direction: column;
+    }
+}

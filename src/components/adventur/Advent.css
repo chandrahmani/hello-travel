@@ -16,7 +16,7 @@ footer {
 .txts {
     color: #fff;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     height: 20vh;
     padding: 1rem;
 }
@@ -34,4 +34,16 @@ footer {
 .bttn-wrp {
     padding-bottom: 2rem;
     margin-left: 4rem;
+}
+
+@media screen and (max-width: 560px) {
+    .advent-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .text-wrp {
+        margin-top: 2rem;
+    }
 }
