@@ -1,0 +1,128 @@
+.conatiner {
+    background-image: url(https://kashmirtravelagent.com/images/banner1.jpg);
+    height: 82vh;
+    display: flex;
+}
+
+.title-heading .txt {
+    position: absolute;
+    font-size: 56px !important;
+    letter-spacing: 0px;
+    /* font-weight: 700; */
+    text-transform: capitalize;
+    line-height: 58px;
+    max-width: 48%;
+    top: 120px;
+    left: 70px;
+    margin-left: 2rem;
+}
+
+.deals {
+    position: absolute;
+    top: 428px;
+    left: 70px;
+    color: #8492a6 !important;
+    font-size: 18px;
+    margin-left: 2rem;
+}
+
+.txt-primary {
+    color: #f7961c !important;
+}
+
+.form-wrapper {
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    max-width: 400px;
+}
+
+.img-align img {
+    border-radius: 7px;
+    width: 76%;
+    margin-left: 2rem;
+}
+
+.form-conatiner {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 3rem;
+}
+
+.form-conatiner input {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+    padding: 0.6rem;
+    color: black;
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.btn {
+    position: relative;
+    top: 9px;
+    left: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+    background-color: #f7961c;
+}
+
+.msg {
+    display: block;
+    margin-left: 3rem;
+}
+
+.info-wrapper {
+    background: linear-gradient(45deg, #f5d105, #28a74500);
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+
+}
+
+.txt-style {
+    margin: 1rem;
+}
+
+.tag {
+    display: flex;
+    flex-direction: column-reverse;
+    background: #ffe90399;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+@media screen and (max-width:900px) {
+    .title-heading .txt {
+        font-size: 36px !important;
+        letter-spacing: 0px;
+        /* font-weight: 700; */
+        text-transform: capitalize;
+        line-height: 43px;
+        max-width: 62%;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .title-heading .txt {
+        font-size: 30px !important;
+        letter-spacing: 0px;
+        /* font-weight: 700; */
+        text-transform: capitalize;
+        line-height: 33px;
+        max-width: 62%;
+        margin-left: 2rem;
+    }
+}
