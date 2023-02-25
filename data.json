@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "offer": "90% Off",
+        "url": "https://kashmirtravelagent.com/images/travel/2.jpg",
+        "name": "ashmir Houseboat Tour",
+        "package": "Package Starting:Srinagar | Gulmarg |",
+        "place": "Sonmarg | Pahalgam",
+        "price": 10999
+    },
+    {
+        "id": 2,
+        "offer": "70% Off",
+        "url": "https://kashmirtravelagent.com/images/travel/1.jpg",
+        "name": "  Honeymoon In Kashmir",
+        "package": "Package Starting:Srinagar | Gulmarg | Pahalgam | Sonmarg",
+        "place": "Sonmarg | Pahalgam",
+        "price": 10999
+    },
+    {
+        "id": 3,
+        "offer": "60% Off",
+        "url": "https://kashmirtravelagent.com/images/travel/9.jpg",
+        "name": "  Valley Tour",
+        "package": "Package Starting:Srinagar | Gulmarg | Pahalgam",
+        "place": "Sonmarg | Pahalgam",
+        "price": 7999
+    },
+    {
+        "id": 4,
+        "offer": "80% Off",
+        "url": "https://kashmirtravelagent.com/images/travel/4.jpg",
+        "name": "Kashmir Family Tour",
+        "package": "Package Starting:Jammu | katra | Patnitop | Srinagar",
+        "place": "Sonmarg | Pahalgam",
+        "price": 5999
+    }
+]
