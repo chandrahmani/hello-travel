@@ -3,7 +3,6 @@ import './Service.css'
 
 const Servic = () => {
     return (
-
         <>
             <section >
                 <div className="service-section">
@@ -84,8 +83,6 @@ const Servic = () => {
 
             <Adventor />
         </>
-
-
     )
 }
 

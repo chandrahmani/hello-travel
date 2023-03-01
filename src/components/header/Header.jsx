@@ -5,8 +5,8 @@ const Header = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
 
-    const onSubmit = () => {
-
+    const onSubmit = (data) => {
+        console.log(data)
     }
 
 
@@ -79,7 +79,6 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-
             </section>
             <TravelDtl />
         </>

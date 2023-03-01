@@ -3,13 +3,8 @@ import Servic from "../service/Servic"
 import './Traval.css'
 import axios from "axios";
 
-
-// const pth = "../../data/index.json"
-
 const TravelDtl = () => {
     const [data, setData] = useState([])
-
-    //  console.log(data)
 
     const travelData = async () => {
         try {
@@ -36,7 +31,6 @@ const TravelDtl = () => {
                             <div className="info-wrappers">
                                 <span className="offer">{item.offer}</span>
                                 <img src={item.url} />
-                                {/* <span className="offer">4N/5D</span> */}
                                 <h3>{item.name}</h3>
                                 <h4>{item.package}</h4>
                                 <h5>Rs-/ {item.price}</h5>
@@ -46,13 +40,9 @@ const TravelDtl = () => {
                                 <button className="btns">Get Quote</button>
                             </div>
                         </div>
-
                     </div>
-
                 )}
-
             </section>
-
             <Servic />
         </>
     )
