@@ -3,8 +3,6 @@ import Header from './components/header/Header'
 
 
 function App() {
-
-
   return (
     <div className="App">
       <Header />
@@ -13,4 +11,4 @@ function App() {
 }
 
 
-export default App
+export default App;

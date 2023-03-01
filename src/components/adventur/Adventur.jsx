@@ -17,8 +17,6 @@ const Adventor = () => {
                         </div>
                     </div>
 
-
-
                     <div className='text-wrp'>
                         <div>
                             <h6 className="title mb-0">Day 1: Arrive Srinagar </h6>

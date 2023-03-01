@@ -1,17 +1,14 @@
-.grid-container {
+.cards-info {
+    background-color: #e7f1fb !important;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
+    gap: 10px;
     color: #000;
 }
 
-.cards-info {
-    background-color: #e7f1fb !important;
-}
-
 .grid-item {
-    padding: 6px;
+    padding: 7px;
     font-size: 30px;
     margin-top: 2rem;
     text-align: center;

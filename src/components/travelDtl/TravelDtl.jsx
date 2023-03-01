@@ -47,5 +47,4 @@ const TravelDtl = () => {
         </>
     )
 }
-
 export default TravelDtl
