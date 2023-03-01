@@ -70,7 +70,7 @@ const Servic = () => {
                         While the beautiful Dal and Nigeen lakes in Srinagar offer an opportunity to relish a stay at the houseboat and enjoy a Shikara Ride; the alpine lakes like Tarsar Marsar, Vishnasar, Gadsar Lakes call out the adventure lovers for the best trekking experience.</p>
 
                     <div className='imgs'>
-                        <img src='https://kashmirtravelagent.com/images/kashmir.png' />
+                        <img src='https://kashmirtravelagent.com/images/kashmir.png' className='imgg' />
                     </div>
                 </div>
                 <div className='exp-wrp'>

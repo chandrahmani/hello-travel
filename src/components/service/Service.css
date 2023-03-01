@@ -68,6 +68,10 @@
     height: 366px;
 }
 
+.imgg {
+    max-width: 500px;
+}
+
 @media screen and (max-width: 880px) {
     .servic-wrp {
         display: flex;
