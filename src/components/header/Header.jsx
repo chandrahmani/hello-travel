@@ -79,7 +79,6 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-
             </section>
             <TravelDtl />
         </>

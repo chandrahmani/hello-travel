@@ -3,7 +3,6 @@ import './Service.css'
 
 const Servic = () => {
     return (
-
         <>
             <section >
                 <div className="service-section">
@@ -64,10 +63,8 @@ const Servic = () => {
 
             <section className='section-tow'>
                 <div className='section-conatiner' >
-
                     <p>
                         <span className='txt'>About Kashmir Tourism</span>< br />
-
                         "Paradise on the Earth" the state is world famous for its scenic splendour, snow-capped mountains, plentiful wildlife, hospitable people and local handicraft.
                         With apple orchards, saffron fields, glittering lakes & breathtaking meadows, Kashmir, in the union territory of Jammu & Kashmir, draws the attention of tourists from across the globe. With tranquil settings, magnificent views, and pristine nature, Kashmir is a perfect holiday destination that should be visited once in a lifetime.
                         While the beautiful Dal and Nigeen lakes in Srinagar offer an opportunity to relish a stay at the houseboat and enjoy a Shikara Ride; the alpine lakes like Tarsar Marsar, Vishnasar, Gadsar Lakes call out the adventure lovers for the best trekking experience.</p>
@@ -79,13 +76,9 @@ const Servic = () => {
                 <div className='exp-wrp'>
                     <button className='exp-btn'>Talk To An Expert</button>
                 </div>
-
             </section>
-
             <Adventor />
         </>
-
-
     )
 }
 

@@ -3,13 +3,8 @@ import Servic from "../service/Servic"
 import './Traval.css'
 import axios from "axios";
 
-
-// const pth = "../../data/index.json"
-
 const TravelDtl = () => {
     const [data, setData] = useState([])
-
-    //  console.log(data)
 
     const travelData = async () => {
         try {
@@ -46,16 +41,11 @@ const TravelDtl = () => {
                                 <button className="btns">Get Quote</button>
                             </div>
                         </div>
-
                     </div>
-
                 )}
-
             </section>
-
             <Servic />
         </>
     )
 }
-
 export default TravelDtl
