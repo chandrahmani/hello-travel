@@ -33,9 +33,11 @@ const Adventor = () => {
             <footer>
                 <h1 className='txts'>ustomize Your Holiday Package With Our Travel Experts</h1>
                 <div className='bttn-wrp'>
-                    <button className='bttn'>
-                        Get customize Quotes
-                    </button>
+                    <div className='bttn-wrp'>
+                        <div className='web-link'>
+                            <a href='https://www.hellotravelindia.in/'>webtechpie.com</a>
+                        </div>
+                    </div>
                 </div>
             </footer>
         </>
