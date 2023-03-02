@@ -16,9 +16,13 @@ footer {
 .txts {
     color: #fff;
     text-align: center;
-    font-size: 30px;
-    height: 20vh;
+    font-size: 25px;
+    height: 15vh;
     padding: 1rem;
+}
+
+.text-wrp {
+    margin-left: 1rem;
 }
 
 .bttn {
@@ -36,14 +40,48 @@ footer {
     margin-left: 4rem;
 }
 
-@media screen and (max-width: 560px) {
+.web-link {
+    font-size: 25px;
+    text-align: center;
+}
+
+.web-link a {
+    color: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .advent-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:678px) {
+    .advent-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width: 590px) {
     .advent-container {
         display: flex;
         flex-direction: column;
 
     }
 
+    .img-trip img {
+        max-width: 100%;
+    }
+
     .text-wrp {
         margin-top: 2rem;
+    }
+
+    .advent-container {
+        display: flex;
+        flex-direction: column;
     }
 }
