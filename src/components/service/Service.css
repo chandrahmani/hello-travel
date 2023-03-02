@@ -68,10 +68,6 @@
     height: 366px;
 }
 
-.imgg {
-    max-width: 500px;
-}
-
 @media screen and (max-width: 880px) {
     .servic-wrp {
         display: flex;
@@ -85,5 +81,17 @@
     .section-conatiner {
         display: flex;
         flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .imgs img {
+        max-width: 100%;
+    }
+
+    .exp-btn {
+        background-color: #d87c08;
+        margin-top: 1rem;
     }
 }
