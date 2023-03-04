@@ -129,26 +129,27 @@
 
 @media screen and (max-width:768px) {
     .title-heading .txt {
-        font-size: 30px !important;
+        font-size: 20px !important;
         text-transform: capitalize;
         line-height: 33px;
         max-width: 100%;
         margin-left: 1rem;
         top: 20px;
-        left: 50px;
+        left: 17px;
+
     }
 
     .form-wrapper {
         position: absolute;
         width: 80%;
         margin-top: 230px;
-        left: 60px;
+        left: 42px;
     }
 
     .deals {
         position: absolute;
-        top: 180px;
-        left: 31px;
+        top: 148px;
+        left: 0px;
         color: #8492a6 !important;
         font-size: 18px;
     }
