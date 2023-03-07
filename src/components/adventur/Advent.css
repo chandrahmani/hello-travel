@@ -25,7 +25,7 @@ footer {
     margin-left: 1rem;
 }
 
-.bttn {
+.btn {
     background-color: #fff;
     color: black;
 }
@@ -35,7 +35,7 @@ footer {
     transition: all 0.5s ease;
 }
 
-.bttn-wrp {
+.btn-wrp {
     padding-bottom: 2rem;
     margin-left: 4rem;
 }
@@ -47,6 +47,11 @@ footer {
 
 .web-link a {
     color: #ffff;
+}
+
+.num-wrp {
+    color: #fff;
+    text-align: end;
 }
 
 @media screen and (max-width:768px) {
