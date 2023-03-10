@@ -2,8 +2,9 @@
     {
         "id": 1,
         "offer": "90% Off",
-        "url": "https://kashmirtravelagent.com/images/travel/2.jpg",
-        "name": "ashmir Houseboat Tour",
+        "url": "https://media.istockphoto.com/id/1218830644/photo/beautiful-lake.jpg?s=612x612&w=0&k=20&c=r5or5KmtrZE5P93cDPG2FzxWQxhZA0qeTInoXJ7qXxA=",
+        "day": "3N/4D",
+        "name": "LADAKH",
         "package": "Package Starting:Srinagar | Gulmarg |",
         "place": "Sonmarg | Pahalgam",
         "price": 10999
@@ -11,7 +12,8 @@
     {
         "id": 2,
         "offer": "70% Off",
-        "url": "https://kashmirtravelagent.com/images/travel/1.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mountains_in_Ladakh.jpg",
+        "day": "5N/6D",
         "name": "  Honeymoon In Kashmir",
         "package": "Package Starting:Srinagar | Gulmarg | Pahalgam | Sonmarg",
         "place": "Sonmarg | Pahalgam",
@@ -20,7 +22,8 @@
     {
         "id": 3,
         "offer": "60% Off",
-        "url": "https://kashmirtravelagent.com/images/travel/9.jpg",
+        "url": "https://static.toiimg.com/imagenext/toiblogs/photo/blogs/wp-content/uploads/2015/07/Mountains-in-Nubra.jpg",
+        "day": "4N/5D",
         "name": "  Valley Tour",
         "package": "Package Starting:Srinagar | Gulmarg | Pahalgam",
         "place": "Sonmarg | Pahalgam",
@@ -30,9 +33,10 @@
         "id": 4,
         "offer": "80% Off",
         "url": "https://kashmirtravelagent.com/images/travel/4.jpg",
+        "day": "6N/7D",
         "name": "Kashmir Family Tour",
-        "package": "Package Starting:Jammu | katra | Patnitop | Srinagar",
+        "package": "Package Starting:Jammu ",
         "place": "Sonmarg | Pahalgam",
-        "price": 5999
+        "price": 18000
     }
 ]
