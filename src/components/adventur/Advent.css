@@ -30,7 +30,7 @@ footer {
 }
 
 .text-wrp {
-    margin-left: 1rem;
+    margin-top: 2rem;
 }
 
 .btn {
@@ -107,7 +107,8 @@ footer {
     }
 
     .text-wrp {
-        margin-top: 2rem;
+        margin-left: 0rem;
+
     }
 
     .advent-container {
