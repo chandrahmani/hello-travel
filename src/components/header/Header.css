@@ -1,40 +1,37 @@
-.conatiner {
-    background-image: url(https://kashmirtravelagent.com/images/banner1.jpg);
-    height: 82vh;
-    display: flex;
+.header-info {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMSqgtKElpRJtMg9G6MjoDIGjMq0xxBArtrQ&usqp=CAU);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
 .title-heading .txt {
-    position: absolute;
-    font-size: 56px !important;
+    font-size: 45px !important;
     letter-spacing: 0px;
-    /* font-weight: 700; */
     text-transform: capitalize;
     line-height: 58px;
-    max-width: 48%;
-    top: 120px;
-    left: 70px;
-    margin-left: 2rem;
+    width: 75%;
+    margin: 62px 47px 0;
 }
 
 .deals {
-    position: absolute;
-    top: 428px;
-    left: 70px;
-    color: #8492a6 !important;
-    font-size: 18px;
-    margin-left: 2rem;
+    color: #f6eeee !important;
+    font-size: 17px;
+    margin: 20px 54px 0;
 }
 
 .txt-primary {
     color: #f7961c !important;
 }
 
+.flex {
+    display: flex;
+    justify-content: end;
+}
+
 .form-wrapper {
-    position: absolute;
-    right: 100px;
-    top: 25px;
-    max-width: 400px;
+    width: 100%;
 }
 
 .img-align img {
@@ -47,7 +44,9 @@
     background-color: #fff;
     border-radius: 5px;
     padding: 3rem;
+    margin: 62px 47px 0;
 }
+
 
 .form-conatiner input {
     position: relative;
@@ -83,6 +82,11 @@
     background: linear-gradient(45deg, #f5d105, #28a74500);
 }
 
+.info-container {
+    display: flex;
+    justify-content: center;
+}
+
 .containers {
     display: flex;
     flex-direction: row;
@@ -101,6 +105,33 @@
     width: 100%;
     border-radius: 5px;
     font-weight: 900;
+}
+
+.phn-num {
+    background-color: #f1ee39;
+    border-radius: 5px;
+    position: relative;
+    left: 128px;
+    display: inline-block;
+    padding: 0.4rem;
+    font-size: 20px;
+    margin-left: 1rem;
+    top: 109px;
+    margin-top: 1rem;
+}
+
+.header-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.phn-num a {
+    color: #282626;
+}
+
+.phn-num:hover {
+    background-color: #82e8d2;
 }
 
 @media screen and (max-width:1200px) {
@@ -129,26 +160,26 @@
 
 @media screen and (max-width:768px) {
     .title-heading .txt {
-        font-size: 20px !important;
+        font-size: 18px !important;
         text-transform: capitalize;
         line-height: 33px;
         max-width: 100%;
         margin-left: 1rem;
-        top: 20px;
-        left: 17px;
+        top: 49px;
+        left: 41px;
 
     }
 
     .form-wrapper {
         position: absolute;
-        width: 80%;
-        margin-top: 230px;
-        left: 42px;
+        width: 100%;
+        margin-top: 235px;
+        left: 1px;
     }
 
     .deals {
         position: absolute;
-        top: 148px;
+        top: 198px;
         left: 0px;
         color: #8492a6 !important;
         font-size: 18px;
@@ -158,8 +189,19 @@
         border-radius: 7px;
     }
 
-    .containers {
+    .info-conatiner {
         display: flex;
         flex-direction: column;
+    }
+
+    .phn-num {
+        background-color: #f1ee39;
+        border-radius: 5px;
+        position: relative;
+        top: 208px;
+        left: 0;
+        display: inline-block;
+        padding: 0.3rem;
+        font-size: 11px;
     }
 }
