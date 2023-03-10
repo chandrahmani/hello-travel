@@ -1,6 +1,12 @@
+.advent-section {
+    display: flex;
+    justify-content: center;
+}
+
 .advent-container {
     display: flex;
-    padding: 4rem;
+    padding: 3rem;
+    margin-left: 3rem;
 }
 
 .anchor {
@@ -11,13 +17,15 @@
 
 footer {
     background-color: #5d3d90 !important;
+    display: flex;
+    justify-content: center;
 }
 
 .txts {
     color: #fff;
     text-align: center;
     font-size: 25px;
-    height: 15vh;
+    height: 8vh;
     padding: 1rem;
 }
 
@@ -49,9 +57,14 @@ footer {
     color: #ffff;
 }
 
+.web-link a:hover {
+    color: #5f5fef;
+}
+
 .num-wrp {
     color: #fff;
-    text-align: end;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 @media screen and (max-width:768px) {
@@ -61,10 +74,22 @@ footer {
     }
 }
 
-@media screen and (max-width:678px) {
+@media screen and (max-width:768px) {
     .advent-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .num-wrp {
+        color: #fff;
+        text-align: center;
+        padding: 0.6rem;
+    }
+
+    .txts {
+        font-size: 19px;
+        height: 10vh;
+        padding: 1rem;
     }
 }
 
@@ -88,5 +113,7 @@ footer {
     .advent-container {
         display: flex;
         flex-direction: column;
+        padding: 3rem;
+        margin-left: 0;
     }
 }
