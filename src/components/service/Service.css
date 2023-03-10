@@ -1,3 +1,8 @@
+.section-tow {
+    display: flex;
+    justify-content: center;
+}
+
 .title-wrp p {
     font-size: 15px;
     color: #8492a6 !important;
@@ -54,7 +59,7 @@
 
 .section-conatiner {
     display: flex;
-    padding: 2rem 5rem 0;
+    padding: 2rem;
 }
 
 .txt {
@@ -71,6 +76,7 @@
 .imgs img {
     height: 366px;
 }
+
 
 @media screen and (max-width: 880px) {
     .servic-wrp {
