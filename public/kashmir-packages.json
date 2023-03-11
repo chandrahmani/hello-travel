@@ -1,0 +1,87 @@
+[
+  {
+    "_id": "67729c52-bfe2-11ed-afa1-0242ac120002",
+    "title": "kashmir and Katra",
+    "avatar": "kashmir_and_katra.jpg",
+    "night": 2,
+    "itineraries": [
+      {
+        "_id": "67729eaa-bfe2-11ed-afa1-0242ac120002",
+        "title": "Jammu Airport Pickup to Katra",
+        "text": "Pickup from Jammu Airport and Drive to Katra before Sightseeing in Jammu, Akhnoor Fort/ Raghunath Temple / Mubarak Mandi Palace"
+      },
+      {
+        "_id": "67729eaa-bfe2-11ed-afa1-0242ac120003",
+        "title": "In Katra Mata Vaishno Devi Mandir",
+        "text": "The second-most visited Hindu pilgrimage destination in India, Mata Vaishno Devi Cave Temple is situated in the Trikuta Hills in Katra, Jammu & Kashmir. Hindu devotees from all over the world visit this famed religious site where the Mother Goddess or Mata Vaishno Devi is said to fulfill their wishes. This religious place is considered the most important Shaktipeeth as it is believed, here the skull of the Goddess Sati fell.         At Mata Vaishno Devi Cave, the goddess is in the form of a five and a half feet tall rock which has three heads or the Pindies. On Mata Vaishno Devi pilgrimage, devotees make traditional offerings to Mata of chunri (a red coloured drape), sarees, dry fruits, silver or gold ornaments, cholas, flowers etc."
+      },
+      {
+        "_id": "67729eaa-bfe2-11ed-afa1-0242ac120004",
+        "title": "Drive from Katra to Srinagar",
+        "text": "After Breakfast Drive to Srinagar and rest at Hotel"
+      }
+    ],
+    "includes": [
+      "accommodation at above mentioned Hotels or similar",
+      "Meal plan as specified against each hotel above",
+      "All transfer, sightseeing & roundtrip by 01 Non Ac Innova  as per the itinerary",
+      "Half-day sightseeing tour to Mughal Gardens"
+    ],
+    "excludes": [
+      "Any air / train fare, Meals other than specified",
+      "Monument fee / camera fee"
+    ],
+    "notes": [
+      "Above Package cost is Nett & Non-commissionable to you, please add your mark-up accordingly",
+      "bove package cost is valid for this particular enquiry only",
+      "Package rates are valid June' 2022."
+    ],
+    "cost": {
+      "label": "Package Cost",
+      "fields": [
+        {
+          "title": "PAX SLABS & SUPPLMENTSTOUR",
+          "data": [
+            "For 4 paying pax, travelling together",
+            "Cost for without extra bed in same bed",
+            "Child below four years"
+          ]
+        },
+        {
+          "title": "COST",
+          "data": [
+            "26,700 per person",
+            "10,163 per bed",
+            "complementary on EPAI"
+          ]
+        }
+      ]
+    },
+    "accommodation": {
+      "label": "HOTELS ENVISAGED",
+      "fields": [
+        {
+          "title": "CITY",
+          "data": ["Katra", "Srinagar"]
+        },
+        {
+          "title": "Accommodation",
+          "data": ["Hotel Ambica", "Hotel New Mamta"]
+        },
+        {
+          "title": "category",
+          "data": ["Royal Deluxe", "Family Room "]
+        },
+        {
+          "title": "Meal Plan",
+          "data": ["MAPAI", "MAPAI"]
+        },
+
+        {
+          "title": "Nights",
+          "data": ["02", "04"]
+        }
+      ]
+    }
+  }
+]
