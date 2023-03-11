@@ -1,29 +1,24 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css'
-import Adventure from './components/adventure/adventure';
-import Navbar from './components/core/navbar/Navbar';
-import Header from './components/header/Header'
-import Service from './components/service/Service';
-import TravelDetails from './components/travelDetails/TravelDetails';
-
+import { Outlet, useLocation } from "react-router-dom";
+import Navbar from "./components/core/navbar/Navbar";
+import Header from "./components/header/Header";
+import "./App.css";
 
 function App() {
+  let { pathname } = useLocation();
+
   return (
     <div className="App">
+      <Navbar />
 
-      <BrowserRouter>
-        <Navbar />
-        <Header />
-        <Routes>
-          <Route path='/' element={<Service />}>
-            <Route path='adventure' element={<Adventure />} />
-            <Route path='travel' element={<TravelDetails />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <section className="container p-2">
+        <Outlet />
+      </section>
+
+      {/* home page content would be here */}
+      {pathname === "/" && <Header />}
+      <footer>Some footer data</footer>
     </div>
-  )
+  );
 }
-
 
 export default App;
