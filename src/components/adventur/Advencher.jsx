@@ -26,7 +26,7 @@ const Advencher = () => {
 
                             <div >
                                 <div >
-                                    <p c>Welcome to your 'Glorious Kashmir' tour! Arrive into Airport in Srinagar. You will be met and transferred to your houseboat in Srinagar. When we think of Kashmir, the first thing that comes to our Mind is 'Houseboats'. Staying on a Houseboat means like living in Paradise, an experience one is not likely to find anywhere else on the surface of the earth. In the evening, enjoy a romantic Shikara ride for one hour on the Dal lake. Overnight in Houseboat.</p>
+                                    <p>Welcome to your 'Glorious Kashmir' tour! Arrive into Airport in Srinagar. You will be met and transferred to your houseboat in Srinagar. When we think of Kashmir, the first thing that comes to our Mind is 'Houseboats'. Staying on a Houseboat means like living in Paradise, an experience one is not likely to find anywhere else on the surface of the earth. In the evening, enjoy a romantic Shikara ride for one hour on the Dal lake. Overnight in Houseboat.</p>
                                 </div>
                             </div>
                         </div>
