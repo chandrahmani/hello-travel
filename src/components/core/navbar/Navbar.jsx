@@ -1,7 +1,7 @@
-import { List, X } from "phosphor-react";
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import "./Navbar.css";
+import { List, X } from 'phosphor-react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="menu-icon" onClick={handelClick}>
             {click ? <X size={32} /> : <List size={32} />}
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home

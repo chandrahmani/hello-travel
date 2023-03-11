@@ -1,26 +1,26 @@
 [
-    {
-        "id": 1,
-        "name": "ashmir Houseboat Tour",
-        "package": "Package Starting:Srinagar | Gulmarg |",
-        "price": 10999
-    },
-    {
-        "id": 2,
-        "name": "  Honeymoon In Kashmir",
-        "package": "Package Starting:Srinagar | Gulmarg | Pahalgam | Sonmarg",
-        "price": 10999
-    },
-    {
-        "id": 3,
-        "name": "  Valley Tour",
-        "package": "Package Starting:Srinagar | Gulmarg | Pahalgam",
-        "price": 7999
-    },
-    {
-        "id": 4,
-        "name": "Kashmir Family Tour",
-        "package": "Package Starting:Jammu | katra | Patnitop | Srinagar",
-        "price": 5999
-    }
+  {
+    "id": 1,
+    "name": "ashmir Houseboat Tour",
+    "package": "Package Starting:Srinagar | Gulmarg |",
+    "price": 10999
+  },
+  {
+    "id": 2,
+    "name": "  Honeymoon In Kashmir",
+    "package": "Package Starting:Srinagar | Gulmarg | Pahalgam | Sonmarg",
+    "price": 10999
+  },
+  {
+    "id": 3,
+    "name": "  Valley Tour",
+    "package": "Package Starting:Srinagar | Gulmarg | Pahalgam",
+    "price": 7999
+  },
+  {
+    "id": 4,
+    "name": "Kashmir Family Tour",
+    "package": "Package Starting:Jammu | katra | Patnitop | Srinagar",
+    "price": 5999
+  }
 ]

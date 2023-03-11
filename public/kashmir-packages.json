@@ -27,10 +27,7 @@
       "All transfer, sightseeing & roundtrip by 01 Non Ac Innova  as per the itinerary",
       "Half-day sightseeing tour to Mughal Gardens"
     ],
-    "excludes": [
-      "Any air / train fare, Meals other than specified",
-      "Monument fee / camera fee"
-    ],
+    "excludes": ["Any air / train fare, Meals other than specified", "Monument fee / camera fee"],
     "notes": [
       "Above Package cost is Nett & Non-commissionable to you, please add your mark-up accordingly",
       "bove package cost is valid for this particular enquiry only",
@@ -49,11 +46,7 @@
         },
         {
           "title": "COST",
-          "data": [
-            "26,700 per person",
-            "10,163 per bed",
-            "complementary on EPAI"
-          ]
+          "data": ["26,700 per person", "10,163 per bed", "complementary on EPAI"]
         }
       ]
     },
