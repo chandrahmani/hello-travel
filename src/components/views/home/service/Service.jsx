@@ -1,4 +1,4 @@
-import { Container } from '../../../header/Styled';
+import { Container } from '../../../core/styled';
 
 import './Service.css';
 

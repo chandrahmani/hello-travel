@@ -4,9 +4,9 @@ import App from './App';
 import './index.css';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import ErrorPage from './pages/ErrorPage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
+import ErrorPage from './components/views/ErrorPage';
+import AboutPage from './components/views/about/About';
+import ContactPage from './components/views/contact/Contact';
 
 const router = createBrowserRouter(
   [

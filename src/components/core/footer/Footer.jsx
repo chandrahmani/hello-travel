@@ -1,4 +1,4 @@
-import { Container } from '../../header/Styled';
+import { Container } from '../styled';
 import './Footer.css';
 
 const Footer = () => {

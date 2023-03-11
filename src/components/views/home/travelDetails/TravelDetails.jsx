@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
-import './Traval.css';
 import axios from 'axios';
-import Service from '../service/Service';
-import { Container } from '../../../header/Styled';
+
+import { Container } from '../../../core/styled';
+import './Traval.css';
 
 const TravelDetails = () => {
   const [data, setData] = useState([]);
 
-  const travelData = async () => {
+  const getPackageList = async () => {
     try {
       const { data } = await axios.get('data.json');
       console.log(data);
@@ -18,7 +18,7 @@ const TravelDetails = () => {
   };
 
   useEffect(() => {
-    travelData();
+    getPackageList();
   }, []);
 
   return (
