@@ -5,6 +5,8 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
 
 const router = createBrowserRouter(
   [
@@ -12,10 +14,16 @@ const router = createBrowserRouter(
       path: "/",
       element: <App />,
       errorElement: <ErrorPage />,
-    },
-    {
-      path: "/about",
-      element: <div>About Us</div>,
+      children: [
+        {
+          path: "about/",
+          element: <AboutPage />,
+        },
+        {
+          path: "contact/",
+          element: <ContactPage />,
+        },
+      ],
     },
   ],
   {
@@ -25,8 +33,6 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <App /> */}
-
     <RouterProvider router={router} />
   </React.StrictMode>
 );
