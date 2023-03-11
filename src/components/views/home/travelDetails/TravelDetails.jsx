@@ -3,7 +3,6 @@ import axios from 'axios';
 
 import { Container } from '../../../core/styled';
 import './Traval.css';
-
 const TravelDetails = () => {
   const [data, setData] = useState([]);
 

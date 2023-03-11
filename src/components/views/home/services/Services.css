@@ -53,6 +53,11 @@
 .section-container {
   display: flex;
   padding: 2rem;
+  align-items: center;
+}
+
+.section-container p {
+  padding: 0px 51px 0px;
 }
 
 .txt {
@@ -68,6 +73,11 @@
 
 .imgs img {
   height: 366px;
+}
+
+.trip-detail{
+  font-weight: 600;
+  font-size: 33px;
 }
 
 @media screen and (max-width: 880px) {
