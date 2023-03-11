@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "./components/core/navbar/Navbar";
-import Header from "./components/header/Header";
 import "./App.css";
+import Banner from "./components/views/banner/Banner";
 
 function App() {
   let { pathname } = useLocation();
@@ -15,7 +15,7 @@ function App() {
       </section>
 
       {/* home page content would be here */}
-      {pathname === "/" && <Header />}
+      {pathname === "/" && <Banner />}
       <footer>Some footer data</footer>
     </div>
   );
