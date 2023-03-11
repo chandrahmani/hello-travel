@@ -10,7 +10,7 @@ const Adventure = () => {
                         <div className="img-trip">
                             <img src="https://static.toiimg.com/photo/81849907.cms" />
 
-                            <div className="advencher-detail">
+                            <div className="adventure-detail">
                                 <p>Travel Agent Kashmir announced trip to Heaven on earth Kashmir, It would
                                     Enjoy best of sceneries in Fairy Meadows and make your journey a beautiful memory with us ❤️
                                     We wish you all the best and look forward to seeing you joining this Thrilling and Adventurous Tour.</p>
