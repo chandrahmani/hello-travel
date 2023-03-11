@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
 import './Traval.css'
 import axios from "axios";
-import { Container } from "../header/Styled";
 import Service from "../service/Service";
+import { Container } from "../../../header/Styled";
 
 const TravelDetails = () => {
     const [data, setData] = useState([])
@@ -47,11 +47,8 @@ const TravelDetails = () => {
                             </div>
                         )}
                     </div>
-
                 </Container>
-
             </section>
-            <Service />
         </>
     )
 }

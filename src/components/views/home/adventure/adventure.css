@@ -15,20 +15,6 @@
     border-radius: 6px;
 }
 
-footer {
-    background-color: #5d3d90;
-    display: flex;
-    justify-content: center;
-}
-
-.footer-package {
-    color: #fff;
-    text-align: center;
-    font-size: 25px;
-    height: 8vh;
-    padding: 1rem;
-}
-
 .adventure-package {
     margin-top: 2rem;
 }
@@ -48,28 +34,6 @@ footer {
     margin-left: 4rem;
 }
 
-.web-link {
-    font-size: 25px;
-    text-align: center;
-}
-
-.websit-link a {
-    color: #ffff;
-}
-
-.web-link a:hover {
-    color: #5f5fef;
-}
-
-.number-wrap {
-    color: #fff;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.number-wrapper {
-    background-color: red;
-}
 
 @media screen and (max-width:768px) {
     .adventure-container {

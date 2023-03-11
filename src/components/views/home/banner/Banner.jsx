@@ -1,8 +1,8 @@
-import { Container } from "../../header/Styled";
+import { Container } from "../../../header/Styled";
 import { useForm } from "react-hook-form";
 import { Phone } from "phosphor-react";
 import './Banner.css'
-import Formquery from "../../core/form-query/Formquery";
+import Formquery from "../../../core/form-query/Formquery";
 
 const Banner = () => {
 
