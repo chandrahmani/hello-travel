@@ -80,12 +80,12 @@ p {
     background-color: #f7961c;
 }
 
-.info-wrappers {
+.info-wrapper {
     background-color: #f6f6fb;
     border-radius: 5px;
 }
 
-.info-wrappers:hover {
+.info-wrapper:hover {
     background-color: #dcdce2;
 }
 

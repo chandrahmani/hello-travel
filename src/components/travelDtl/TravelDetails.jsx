@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
-import Servic from "../service/Servic"
 import './Traval.css'
 import axios from "axios";
 import { Container } from "../header/Styled";
+import Service from "../service/Service";
 
-const TravelDtl = () => {
+const TravelDetails = () => {
     const [data, setData] = useState([])
 
     const travelData = async () => {
@@ -28,10 +28,10 @@ const TravelDtl = () => {
             <section className="cards-info">
                 <Container>
                     <div className="card-flex">
-                        {data.map((item, index) =>
-                            <div className="grid-container" key={index}>
+                        {data.map((item, id) =>
+                            <div className="grid-container" key={id}>
                                 <div className="grid-item">
-                                    <div className="info-wrappers">
+                                    <div className="info-wrapper">
                                         <span className="offer">{item.offer}</span>
                                         <img src={item.url} />
                                         <span className="offers">{item.day}</span>
@@ -51,8 +51,8 @@ const TravelDtl = () => {
                 </Container>
 
             </section>
-            <Servic />
+            <Service />
         </>
     )
 }
-export default TravelDtl
+export default TravelDetails;

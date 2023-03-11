@@ -1,4 +1,7 @@
 .header-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMSqgtKElpRJtMg9G6MjoDIGjMq0xxBArtrQ&usqp=CAU);
     height: 90vh;
     background-repeat: no-repeat;
@@ -107,7 +110,7 @@
     font-weight: 900;
 }
 
-.phn-num {
+.phone-number {
     background-color: #f1ee39;
     border-radius: 5px;
     position: relative;
@@ -118,12 +121,6 @@
     margin-left: 1rem;
     top: 109px;
     margin-top: 1rem;
-}
-
-.header-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .phn-num a {
@@ -194,7 +191,7 @@
         flex-direction: column;
     }
 
-    .phn-num {
+    .phone-number {
         background-color: #f1ee39;
         border-radius: 5px;
         position: relative;

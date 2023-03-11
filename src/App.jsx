@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
-import Adventur from './components/adventur/Adventur';
+import Advencher from './components/adventur/Advencher';
 import Navbar from './components/core/navbar/Navbar';
 import Header from './components/header/Header'
-import Servic from './components/service/Servic';
-import TravelDtl from './components/travelDtl/TravelDtl';
+import Service from './components/service/Service';
+import TravelDetails from './components/travelDtl/TravelDetails';
 
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Header />}>
-            <Route path='' element={<Servic />} />
-            <Route path='adventur' element={<Adventur />} />
-            <Route path='travel' element={<TravelDtl />} />
+            <Route path='' element={<Service />} />
+            <Route path='adventur' element={<Advencher />} />
+            <Route path='travel' element={<TravelDetails />} />
           </Route>
         </Routes>
       </BrowserRouter>

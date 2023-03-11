@@ -1,11 +1,11 @@
-import Adventor from '../adventur/Adventur';
+import Advencher from '../adventur/Advencher';
 import { Container } from '../header/Styled';
 import './Service.css'
 
-const Servic = () => {
+const Service = () => {
     return (
         <>
-            <section >
+            <section>
                 <div className="service-section">
                     <Container>
                         <div className="heading-dtl">
@@ -14,7 +14,7 @@ const Servic = () => {
                         </div>
 
                         <div>
-                            <div className='servic-wrp'>
+                            <div className='service-wrap'>
                                 <div className='box'>
                                     <div className="img-wrp">
                                         <img src="https://kashmirtravelagent.com/images/Private_Guest_House.png" />
@@ -26,7 +26,7 @@ const Servic = () => {
                                 </div>
 
                                 <div className='box'>
-                                    <div className="img-wrp">
+                                    <div className="img-wrap">
                                         <img src="https://kashmirtravelagent.com/images/Sunset_on_Beach.png" />
                                     </div>
                                     <div className="title-wrp">
@@ -36,20 +36,20 @@ const Servic = () => {
                                 </div>
 
                                 <div className='box'>
-                                    <div className="img-wrp">
+                                    <div className="img-wrap">
                                         <img src="https://kashmirtravelagent.com/images/Restaurant.png" />
                                     </div>
-                                    <div className="title-wrp">
+                                    <div className="title-wrap">
                                         <a href=' #' className='titles'>Local Culinary Recomendation</a>
                                         <p >The traditional food of Kashmir is rich in luscious meats, fragrant with rice and redolent of herbs and spices.</p>
                                     </div>
                                 </div>
 
                                 <div className='box'>
-                                    <div className="img-wrp">
+                                    <div className="img-wrap">
                                         <img src="https://kashmirtravelagent.com/images/Private_Guest_House.png" />
                                     </div>
-                                    <div className="title-wrp">
+                                    <div className="title-wrap">
                                         <a href='#' className='titles'>Transport & Travel Tips</a>
                                         <p >Luxury Transport are available for tourists for the purpose of local sightseeing & Travel Guide</p>
                                     </div>
@@ -65,9 +65,9 @@ const Servic = () => {
 
             <section className='section-tow'>
                 <Container >
-                    <div className='section-conatiner' >
-                        <p className='text-wrapper'>
-                            <span className='txt'>About Kashmir Tourism</span>< br />
+                    <div className='section-container' >
+                        <p className=''>
+                            <span className=''>About Kashmir Tourism</span>< br />
                             "Paradise on the Earth" the state is world famous for its scenic splendour, snow-capped mountains, plentiful wildlife, hospitable people and local handicraft.
                             With apple orchards, saffron fields, glittering lakes & breathtaking meadows, Kashmir, in the union territory of Jammu & Kashmir, draws the attention of tourists from across the globe. With tranquil settings, magnificent views, and pristine nature, Kashmir is a perfect holiday destination that should be visited once in a lifetime.
                             While the beautiful Dal and Nigeen lakes in Srinagar offer an opportunity to relish a stay at the houseboat and enjoy a Shikara Ride; the alpine lakes like Tarsar Marsar, Vishnasar, Gadsar Lakes call out the adventure lovers for the best trekking experience.</p>
@@ -80,9 +80,9 @@ const Servic = () => {
                 </Container>
             </section>
 
-            <Adventor />
+            <Advencher />
         </>
     )
 }
 
-export default Servic;
+export default Service;

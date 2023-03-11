@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-.title-wrp p {
+.title-wrap p {
     font-size: 15px;
     color: #8492a6 !important;
 }
@@ -32,7 +32,7 @@
     color: #000;
 }
 
-.servic-wrp {
+.service-wrap {
     display: flex;
 }
 
@@ -57,7 +57,7 @@
     padding: 2rem;
 }
 
-.section-conatiner {
+.section-container {
     display: flex;
     padding: 2rem;
 }
@@ -88,7 +88,7 @@
 }
 
 @media screen and (max-width: 760px) {
-    .section-conatiner {
+    .section-container {
         display: flex;
         flex-direction: column;
     }

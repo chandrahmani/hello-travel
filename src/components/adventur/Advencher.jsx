@@ -1,27 +1,25 @@
-import { useState } from 'react';
 import { Container } from '../header/Styled';
-import './Advent.css'
+import './advencher.css'
 
-const Adventur = () => {
-
+const Advencher = () => {
     return (
         <>
-            <section className="advent-section">
-                <div className="advent-container">
+            <section className="advencher-section">
+                <div className="advencher-container">
                     <Container>
                         <div className="img-trip">
                             <img src="https://static.toiimg.com/photo/81849907.cms" />
 
-                            <div className="advent-dtl">
+                            <div className="advencher-detail">
                                 <p>Travel Agent Kashmir announced trip to Heaven on earth Kashmir, It would
                                     Enjoy best of sceneries in Fairy Meadows and make your journey a beautiful memory with us ❤️
                                     We wish you all the best and look forward to seeing you joining this Thrilling and Adventurous Tour.</p>
 
-                                <a href="#" className='anchor'>Talk To An Expert</a>
+                                <a href="#" className='link'>Talk To An Expert</a>
                             </div>
                         </div>
 
-                        <div className='text-wrp'>
+                        <div className='advencher-package'>
                             <div>
                                 <h6 className="title mb-0">Day 1: Arrive Srinagar </h6>
                             </div>
@@ -37,15 +35,15 @@ const Adventur = () => {
             </section>
             <footer>
                 <Container>
-                    <h1 className='txts'>ustomize Your Holiday Package With Our Travel Experts</h1>
-                    <div className='link-wrp'>
+                    <h1 className='package'>ustomize Your Holiday Package With Our Travel Experts</h1>
+                    <div className='link-wrap'>
                         <div className='link-container'>
                             <div className='web-link'>
                                 <a href='https://www.webtechpie.com/'>webtechpie.com</a>
                             </div>
                         </div>
-                        <div className='num-wrp'>
-                            <a href='#' ht className='num'>
+                        <div className='number-wrap'>
+                            <a href='#' className='number'>
                                 Mob: +917006036459 / +91990675515
                             </a>
                         </div>
@@ -56,4 +54,4 @@ const Adventur = () => {
     )
 }
 
-export default Adventur;
+export default Advencher;
