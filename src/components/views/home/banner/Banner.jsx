@@ -1,8 +1,7 @@
-import { Container } from '../../../header/Styled';
-import { useForm } from 'react-hook-form';
+import { Container } from '../../../core/styled';
 import { Phone } from 'phosphor-react';
 import './Banner.css';
-import Formquery from '../../../core/form-query/Formquery';
+import QueryForm from '../../../core/queryForm/QueryForm';
 
 const Banner = () => {
   return (
@@ -29,7 +28,7 @@ const Banner = () => {
                 </div>
               </div>
 
-              <Formquery />
+              <QueryForm />
             </div>
           </Container>
         </div>

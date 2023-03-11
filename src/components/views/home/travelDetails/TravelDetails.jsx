@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import './Traval.css';
 import axios from 'axios';
-import Service from '../service/Service';
-import { Container } from '../../../header/Styled';
+
+import { Container } from '../../../core/styled';
 
 const TravelDetails = () => {
   const [data, setData] = useState([]);

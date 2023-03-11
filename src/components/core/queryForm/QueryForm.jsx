@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
-import './FormQuery.css';
+import './QueryForm.css';
 
-const Formquery = () => {
+const QueryForm = () => {
   const {
     register,
     handleSubmit,
@@ -47,4 +47,4 @@ const Formquery = () => {
   );
 };
 
-export default Formquery;
+export default QueryForm;
