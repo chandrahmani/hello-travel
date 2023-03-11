@@ -1,51 +1,50 @@
-import { useForm } from "react-hook-form";
-import './FormQuery.css'
+import { useForm } from 'react-hook-form';
+import './FormQuery.css';
 
 const Formquery = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors }
+  } = useForm();
 
-    const onSubmit = (data) => {
-        console.log(data)
-    }
+  const onSubmit = (data) => {
+    console.log(data);
+  };
 
-    return (
-        <>
-            <div className="form-wrapper">
-                <form onSubmit={handleSubmit(onSubmit)} className="form-container">
+  return (
+    <>
+      <div className="form-wrapper">
+        <form onSubmit={handleSubmit(onSubmit)} className="form-container">
+          <div className="img-align">
+            <img src="https://kashmirtravelagent.com/images/kta-logo.png" />
+          </div>
+          <input type="text" placeholder="enter name" {...register('name', { required: true })} />
 
-                    <div className="img-align">
-                        <img src="https://kashmirtravelagent.com/images/kta-logo.png" />
-                    </div>
-                    <input
-                        type="text"
-                        placeholder="enter name"
-                        {...register('name', { required: true })}
-                    />
+          <input
+            type="email"
+            placeholder="enter your email"
+            {...register('email', { required: true })}
+          />
 
-                    <input
-                        type="email"
-                        placeholder="enter your email"
-                        {...register('email', { required: true })}
-                    />
+          {errors.email && errors.email.type === 'required' && (
+            <span className="msg">This is required</span>
+          )}
 
-                    {errors.email && errors.email.type === "required" && <span className="msg">
-                        This is required
-                    </span>}
+          <input
+            type="number"
+            placeholder="enter your number"
+            {...register('number', { required: true })}
+          />
 
-                    <input
-                        type="number"
-                        placeholder="enter your number"
-                        {...register('number', { required: true })}
-                    />
-
-                    <button type="submit" className="btn">Submit</button>
-                </form>
-                <div>
-
-                </div>
-            </div>
-        </>
-    )
-}
+          <button type="submit" className="btn">
+            Submit
+          </button>
+        </form>
+        <div></div>
+      </div>
+    </>
+  );
+};
 
 export default Formquery;

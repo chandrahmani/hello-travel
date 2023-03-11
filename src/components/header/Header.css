@@ -1,196 +1,192 @@
 .header-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMSqgtKElpRJtMg9G6MjoDIGjMq0xxBArtrQ&usqp=CAU);
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMSqgtKElpRJtMg9G6MjoDIGjMq0xxBArtrQ&usqp=CAU);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 .title-heading .txt {
-    font-size: 45px;
-    letter-spacing: 0px;
-    text-transform: capitalize;
-    line-height: 58px;
-    width: 75%;
-    margin: 62px 47px 0;
+  font-size: 45px;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  line-height: 58px;
+  width: 75%;
+  margin: 62px 47px 0;
 }
 
 .detail {
-    color: #f6eeee;
-    font-size: 17px;
-    margin: 20px 54px 0;
+  color: #f6eeee;
+  font-size: 17px;
+  margin: 20px 54px 0;
 }
 
 .txt-primary {
-    color: #f7961c;
+  color: #f7961c;
 }
 
 .flex {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .form-wrapper {
-    width: 100%;
+  width: 100%;
 }
 
 .img-align img {
-    border-radius: 7px;
-    width: 76%;
-    margin-left: 2rem;
+  border-radius: 7px;
+  width: 76%;
+  margin-left: 2rem;
 }
 
 .form-container {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 3rem;
-    margin: 62px 47px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 3rem;
+  margin: 62px 47px 0;
 }
 
-
 .form-container input {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    margin-bottom: 1.5rem;
-    font-size: 14px;
-    padding: 0.6rem;
-    color: black;
-    width: 100%;
-    border: 1px solid #ccc;
-    background: #fff;
-    border-radius: 5px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+  padding: 0.6rem;
+  color: black;
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 5px;
 }
 
 .btn {
-    position: relative;
-    top: 9px;
-    left: 2px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-    color: #fff;
-    background-color: #f7961c;
+  position: relative;
+  top: 9px;
+  left: 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  color: #fff;
+  background-color: #f7961c;
 }
 
 .msg {
-    display: block;
-    margin-left: 3rem;
+  display: block;
+  margin-left: 3rem;
 }
 
 .info-wrapper {
-    background: linear-gradient(45deg, #f5d105, #28a74500);
+  background: linear-gradient(45deg, #f5d105, #28a74500);
 }
 
 .info-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .txt-style {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .tag {
-    display: flex;
-    flex-direction: column-reverse;
-    background: #ffe90399;
-    width: 100%;
-    border-radius: 5px;
-    font-weight: 900;
+  display: flex;
+  flex-direction: column-reverse;
+  background: #ffe90399;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: 900;
 }
 
 .phone-number {
-    background-color: #f1ee39;
-    border-radius: 5px;
-    position: relative;
-    left: 128px;
-    display: inline-block;
-    padding: 0.4rem;
-    font-size: 20px;
-    margin-left: 1rem;
-    top: 109px;
-    margin-top: 1rem;
+  background-color: #f1ee39;
+  border-radius: 5px;
+  position: relative;
+  left: 128px;
+  display: inline-block;
+  padding: 0.4rem;
+  font-size: 20px;
+  margin-left: 1rem;
+  top: 109px;
+  margin-top: 1rem;
 }
 
 .phone-number a {
-    color: #282626;
+  color: #282626;
 }
 
 .phone-number:hover {
-    background-color: #82e8d2;
+  background-color: #82e8d2;
 }
 
-@media screen and (max-width:1200px) {
-    .title-heading .txt {
-        position: absolute;
-        left: 0;
-        font-size: 20px;
-        letter-spacing: 0px;
-        text-transform: capitalize;
-        line-height: 43px;
-        max-width: 25%;
-    }
+@media screen and (max-width: 1200px) {
+  .title-heading .txt {
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    line-height: 43px;
+    max-width: 25%;
+  }
 }
 
-@media screen and (max-width:900px) {
-    .title-heading .txt {
-        font-size: 26px;
-        letter-spacing: 0px;
-        text-transform: capitalize;
-        line-height: 43px;
-        max-width: 28%;
-
-    }
+@media screen and (max-width: 900px) {
+  .title-heading .txt {
+    font-size: 26px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    line-height: 43px;
+    max-width: 28%;
+  }
 }
 
-@media screen and (max-width:768px) {
-    .title-heading .txt {
-        font-size: 18px;
-        text-transform: capitalize;
-        line-height: 33px;
-        max-width: 100%;
-        margin-left: 1rem;
-        top: 49px;
-        left: 41px;
+@media screen and (max-width: 768px) {
+  .title-heading .txt {
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 33px;
+    max-width: 100%;
+    margin-left: 1rem;
+    top: 49px;
+    left: 41px;
+  }
 
-    }
+  .form-wrapper {
+    position: absolute;
+    width: 100%;
+    margin-top: 235px;
+    left: 1px;
+  }
 
-    .form-wrapper {
-        position: absolute;
-        width: 100%;
-        margin-top: 235px;
-        left: 1px;
-    }
+  .detail {
+    position: absolute;
+    top: 198px;
+    left: 0px;
+    color: #8492a6;
+    font-size: 18px;
+  }
 
-    .detail {
-        position: absolute;
-        top: 198px;
-        left: 0px;
-        color: #8492a6;
-        font-size: 18px;
-    }
+  .img-align img {
+    border-radius: 7px;
+  }
 
-    .img-align img {
-        border-radius: 7px;
-    }
+  .info-container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .info-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .phone-number {
-        background-color: #f1ee39;
-        border-radius: 5px;
-        position: relative;
-        top: 208px;
-        left: 0;
-        display: inline-block;
-        padding: 0.3rem;
-        font-size: 11px;
-    }
+  .phone-number {
+    background-color: #f1ee39;
+    border-radius: 5px;
+    position: relative;
+    top: 208px;
+    left: 0;
+    display: inline-block;
+    padding: 0.3rem;
+    font-size: 11px;
+  }
 }

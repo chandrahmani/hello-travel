@@ -1,36 +1,36 @@
 footer {
-    background-color: #5d3d90;
-    display: flex;
-    justify-content: center;
+  background-color: #5d3d90;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-package {
-    color: #fff;
-    text-align: center;
-    font-size: 25px;
-    height: 8vh;
-    padding: 1rem;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  height: 8vh;
+  padding: 1rem;
 }
 
 .number-wrap {
-    color: #fff;
-    text-align: center;
-    margin-top: 1rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .number-wrapper {
-    background-color: red;
+  background-color: red;
 }
 
 .web-link {
-    font-size: 15px;
-    text-align: center;
+  font-size: 15px;
+  text-align: center;
 }
 
 .websit-link a {
-    color: #ffff;
+  color: #ffff;
 }
 
 .web-link a:hover {
-    color: #5f5fef;
+  color: #5f5fef;
 }
