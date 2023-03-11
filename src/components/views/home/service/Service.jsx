@@ -1,5 +1,6 @@
-import Adventure from '../adventure/Adventure';
-import { Container } from '../header/Styled';
+import { Container } from '../../../header/Styled';
+
+
 import './Service.css'
 
 const Service = () => {
@@ -79,8 +80,6 @@ const Service = () => {
                     </div>
                 </Container>
             </section>
-
-            <Adventure />
         </>
     )
 }
