@@ -23,11 +23,10 @@ function App() {
           <Banner />
           <TravelDetails />
           <Service />
-          <Footer />
         </>
       )}
 
-      <footer>Some footer data</footer>
+      <Footer />
     </div>
   );
 }
