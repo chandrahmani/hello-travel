@@ -1,15 +1,14 @@
-.title-wrp p {
+.section-tow {
+    display: flex;
+    justify-content: center;
+}
+
+.title-wrap p {
     font-size: 15px;
-    color: #8492a6 !important;
+    color: #8492a6;
 }
 
-.conatine {
-    background: #fff;
-    text-align: center;
-    padding: 1.5rem;
-}
-
-.titles {
+.title {
     font-size: 21px;
     color: #3c4858;
     font-weight: 500;
@@ -20,11 +19,15 @@
     transition: all 0.5s ease;
 }
 
-.servic-wrp {
+.service-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: #000;
+}
+
+.service-wrap {
+    display: flex;
 }
 
 .service-section {
@@ -34,23 +37,23 @@
 
 }
 
-.heading-dtl h1 {
+.heading-detail h1 {
     letter-spacing: 0px;
-    font-size: 32px !important;
+    font-size: 32px;
     text-align: center;
     text-transform: capitalize;
 }
 
 .color {
-    color: #8492a6 !important;
+    color: #8492a6;
     text-align: center;
     font-size: 17px;
     padding: 2rem;
 }
 
-.section-conatiner {
+.section-container {
     display: flex;
-    padding: 2rem 5rem 0;
+    padding: 2rem;
 }
 
 .txt {
@@ -60,7 +63,7 @@
 
 .exp-btn {
     background-color: #d87c08;
-    margin-left: 5rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -68,12 +71,9 @@
     height: 366px;
 }
 
-.imgg {
-    max-width: 500px;
-}
 
 @media screen and (max-width: 880px) {
-    .servic-wrp {
+    .service-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -82,8 +82,20 @@
 }
 
 @media screen and (max-width: 760px) {
-    .section-conatiner {
+    .section-container {
         display: flex;
         flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .imgs img {
+        max-width: 100%;
+    }
+
+    .exp-btn {
+        background-color: #d87c08;
+        margin-top: 1rem;
     }
 }

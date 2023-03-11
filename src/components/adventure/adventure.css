@@ -1,0 +1,118 @@
+.adventure-section {
+    display: flex;
+    justify-content: center;
+}
+
+.adventure-container {
+    display: flex;
+    padding: 3rem;
+    margin-left: 3rem;
+}
+
+.package {
+    background-color: #f7961c;
+    padding: 0.7rem;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #5d3d90;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-package {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    height: 8vh;
+    padding: 1rem;
+}
+
+.adventure-package {
+    margin-top: 2rem;
+}
+
+.btn {
+    background-color: #fff;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #f7961c;
+    transition: all 0.5s ease;
+}
+
+.btn-wrapper {
+    padding-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+.web-link {
+    font-size: 25px;
+    text-align: center;
+}
+
+.websit-link a {
+    color: #ffff;
+}
+
+.web-link a:hover {
+    color: #5f5fef;
+}
+
+.number-wrap {
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.number-wrapper {
+    background-color: red;
+}
+
+@media screen and (max-width:768px) {
+    .adventure-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .adventure-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .number-wrapper {
+        color: #fff;
+        text-align: center;
+        padding: 0.6rem;
+    }
+
+    .package {
+        font-size: 19px;
+        height: 10vh;
+        padding: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 590px) {
+    .img-trip img {
+        max-width: 100%;
+    }
+
+    .adventure-detail {
+        margin-left: 0rem;
+
+    }
+
+    .adventure-container {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        margin-left: 0;
+    }
+}
