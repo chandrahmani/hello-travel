@@ -5,8 +5,6 @@
 
 .adventure-container {
     display: flex;
-    padding: 3rem;
-    margin-left: 3rem;
 }
 
 .package {
@@ -15,19 +13,7 @@
     border-radius: 6px;
 }
 
-footer {
-    background-color: #5d3d90;
-    display: flex;
-    justify-content: center;
-}
 
-.footer-package {
-    color: #fff;
-    text-align: center;
-    font-size: 25px;
-    height: 8vh;
-    padding: 1rem;
-}
 
 .adventure-package {
     margin-top: 2rem;
@@ -61,15 +47,6 @@ footer {
     color: #5f5fef;
 }
 
-.number-wrap {
-    color: #fff;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.number-wrapper {
-    background-color: red;
-}
 
 @media screen and (max-width:768px) {
     .adventure-container {

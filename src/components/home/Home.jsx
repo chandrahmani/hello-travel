@@ -1,9 +1,11 @@
 import { Phone } from "phosphor-react";
 import { useForm } from "react-hook-form"
-import TravelDetails from "../travelDetails/TravelDetails";
-import "./Header.css"
-import { Container } from "./Styled";
-const Header = () => {
+import Packages from "../../pages/packages/Packages";
+import { Container } from "../style/Styled";
+import "./home.css"
+
+
+const Home = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
 
@@ -14,7 +16,7 @@ const Header = () => {
 
     return (
         <>
-            <main className="header-wrapper">
+            <main className="home-wrapper">
                 <div className="header-info">
                     <Container>
                         <div className="flex">
@@ -100,12 +102,10 @@ const Header = () => {
                             </div>
                         </div>
                     </Container>
-
                 </div>
-
-                <TravelDetails />
+                <Packages />
             </main>
         </>
     )
 }
-export default Header
+export default Home;

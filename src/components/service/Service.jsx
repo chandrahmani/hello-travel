@@ -1,5 +1,5 @@
 import Adventure from '../adventure/Adventure';
-import { Container } from '../header/Styled';
+import { Container } from '../style/Styled';
 import './Service.css'
 
 const Service = () => {
@@ -65,7 +65,7 @@ const Service = () => {
 
             <section className='section-tow'>
                 <Container >
-                    <div className='section-container' >
+                    <div className='section-container'>
                         <p>
                             <span>About Kashmir Tourism</span>< br />
                             "Paradise on the Earth" the state is world famous for its scenic splendour, snow-capped mountains, plentiful wildlife, hospitable people and local handicraft.
