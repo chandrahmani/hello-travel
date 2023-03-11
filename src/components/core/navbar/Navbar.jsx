@@ -22,7 +22,6 @@ const Navbar = () => {
                         Hello Travel
                     </Link>
                     <div className="menu-icon" onClick={handelClick}>
-
                         {click ? <X size={32} /> : <List size={32} />}
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -40,8 +39,7 @@ const Navbar = () => {
 
                         <li className="nav-item">
                             <Link to="/adventur" className="nav-links" onClick={closeMobileMenu}>
-                                Adventur
-
+                                Adventure
                             </Link>
                         </li>
 

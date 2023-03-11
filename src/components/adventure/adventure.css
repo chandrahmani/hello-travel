@@ -1,9 +1,9 @@
-.advencher-section {
+.adventure-section {
     display: flex;
     justify-content: center;
 }
 
-.advencher-container {
+.adventure-container {
     display: flex;
     padding: 3rem;
     margin-left: 3rem;
@@ -21,7 +21,7 @@ footer {
     justify-content: center;
 }
 
-.package {
+.footer-package {
     color: #fff;
     text-align: center;
     font-size: 25px;
@@ -29,7 +29,7 @@ footer {
     padding: 1rem;
 }
 
-.advencher-package {
+.adventure-package {
     margin-top: 2rem;
 }
 
@@ -43,7 +43,7 @@ footer {
     transition: all 0.5s ease;
 }
 
-.btn-wrp {
+.btn-wrapper {
     padding-bottom: 2rem;
     margin-left: 4rem;
 }
@@ -67,24 +67,24 @@ footer {
     margin-top: 1rem;
 }
 
-.number-wrap {
+.number-wrapper {
     background-color: red;
 }
 
 @media screen and (max-width:768px) {
-    .advencher-container {
+    .adventure-container {
         display: flex;
         flex-direction: column;
     }
 }
 
 @media screen and (max-width:768px) {
-    .advencher-container {
+    .adventure-container {
         display: flex;
         flex-direction: column;
     }
 
-    .nummber-wrap {
+    .number-wrapper {
         color: #fff;
         text-align: center;
         padding: 0.6rem;
@@ -104,12 +104,12 @@ footer {
         max-width: 100%;
     }
 
-    .advencher-detail {
+    .adventure-detail {
         margin-left: 0rem;
 
     }
 
-    .advencher-container {
+    .adventure-container {
         display: flex;
         flex-direction: column;
         padding: 3rem;

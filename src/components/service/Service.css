@@ -14,7 +14,7 @@
     padding: 1.5rem;
 }
 
-.titles {
+.title {
     font-size: 21px;
     color: #3c4858;
     font-weight: 500;
@@ -43,7 +43,7 @@
 
 }
 
-.heading-dtl h1 {
+.heading-detail h1 {
     letter-spacing: 0px;
     font-size: 32px !important;
     text-align: center;
@@ -79,7 +79,7 @@
 
 
 @media screen and (max-width: 880px) {
-    .servic-wrp {
+    .service-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;

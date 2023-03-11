@@ -1,6 +1,6 @@
 import { Phone } from "phosphor-react";
 import { useForm } from "react-hook-form"
-import TravelDtl from "../travelDtl/TravelDetails";
+import TravelDtl from "../travelDetails/TravelDetails";
 import "./Header.css"
 import { Container } from "./Styled";
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
                         <div className="flex">
                             <div className="title-heading">
                                 <h1 className="txt">Best Travel Agents In Kashmir <span className="txt-primary"> UP TO 70% OFF </span> New Year & Christmas Sale 2023 Offers</h1>
-                                <p className="deals">Book customized Kashmir vacation packages with exciting deals & offers.</p>
+                                <p className="detail">Book customized Kashmir vacation packages with exciting deals & offers.</p>
 
                                 <div className="phone-number">
                                     <a href="#">

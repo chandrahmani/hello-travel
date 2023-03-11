@@ -1,4 +1,4 @@
-import Advencher from '../adventur/Advencher';
+import Advencher from '../adventure/Adventure';
 import { Container } from '../header/Styled';
 import './Service.css'
 
@@ -8,7 +8,7 @@ const Service = () => {
             <section>
                 <div className="service-section">
                     <Container>
-                        <div className="heading-dtl">
+                        <div className="heading-detail">
                             <h1>Complete Traveling Services</h1>
                             <p className='color'>Plan as you want to. Book your desired hotels & tour packages. Book only what you want. No rigid itineraries. Nowhere else would you find a more flexible plan. </p>
                         </div>
@@ -19,8 +19,8 @@ const Service = () => {
                                     <div className="img-wrp">
                                         <img src="https://kashmirtravelagent.com/images/Private_Guest_House.png" />
                                     </div>
-                                    <div className="title-wrp">
-                                        <a href='#' className='titles'>Hotels & Houseboats</a>
+                                    <div className="title-wrap">
+                                        <a href='#' className='title'>Hotels & Houseboats</a>
                                         <p>Check out the best hotels & Houseboats in Kashmir and enjoy your vacation with your closed ones</p>
                                     </div>
                                 </div>
@@ -29,8 +29,8 @@ const Service = () => {
                                     <div className="img-wrap">
                                         <img src="https://kashmirtravelagent.com/images/Sunset_on_Beach.png" />
                                     </div>
-                                    <div className="title-wrp">
-                                        <a href='#' className='titles'>Tourist Attraction</a>
+                                    <div className="title-wrap">
+                                        <a href='#' className='title'>Tourist Attraction</a>
                                         <p >Gulmarg, Srinagar, Pahalgam or Sonmarg, make a holiday with family, or honeymoon in Kashmir a wonderful experience.</p>
                                     </div>
                                 </div>
@@ -40,7 +40,7 @@ const Service = () => {
                                         <img src="https://kashmirtravelagent.com/images/Restaurant.png" />
                                     </div>
                                     <div className="title-wrap">
-                                        <a href=' #' className='titles'>Local Culinary Recomendation</a>
+                                        <a href=' #' className='title'>Local Culinary Recomendation</a>
                                         <p >The traditional food of Kashmir is rich in luscious meats, fragrant with rice and redolent of herbs and spices.</p>
                                     </div>
                                 </div>
@@ -50,7 +50,7 @@ const Service = () => {
                                         <img src="https://kashmirtravelagent.com/images/Private_Guest_House.png" />
                                     </div>
                                     <div className="title-wrap">
-                                        <a href='#' className='titles'>Transport & Travel Tips</a>
+                                        <a href='#' className='title'>Transport & Travel Tips</a>
                                         <p >Luxury Transport are available for tourists for the purpose of local sightseeing & Travel Guide</p>
                                     </div>
                                 </div>

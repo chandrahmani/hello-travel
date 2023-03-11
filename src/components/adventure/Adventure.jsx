@@ -1,11 +1,11 @@
 import { Container } from '../header/Styled';
-import './advencher.css'
+import './adventure.css'
 
-const Advencher = () => {
+const Adventure = () => {
     return (
         <>
-            <section className="advencher-section">
-                <div className="advencher-container">
+            <section className="adventure -section">
+                <div className="adventure-container">
                     <Container>
                         <div className="img-trip">
                             <img src="https://static.toiimg.com/photo/81849907.cms" />
@@ -19,7 +19,7 @@ const Advencher = () => {
                             </div>
                         </div>
 
-                        <div className='advencher-package'>
+                        <div className='adventure-package'>
                             <div>
                                 <h6 className="title mb-0">Day 1: Arrive Srinagar </h6>
                             </div>
@@ -35,8 +35,8 @@ const Advencher = () => {
             </section>
             <footer>
                 <Container>
-                    <h1 className='package'>ustomize Your Holiday Package With Our Travel Experts</h1>
-                    <div className='link-wrap'>
+                    <h1 className='footer-package'>ustomize Your Holiday Package With Our Travel Experts</h1>
+                    <div className='link-wrapper'>
                         <div className='link-container'>
                             <div className='web-link'>
                                 <a href='https://www.webtechpie.com/'>webtechpie.com</a>
@@ -54,4 +54,4 @@ const Advencher = () => {
     )
 }
 
-export default Advencher;
+export default Adventure;

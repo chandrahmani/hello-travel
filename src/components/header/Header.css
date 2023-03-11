@@ -18,7 +18,7 @@
     margin: 62px 47px 0;
 }
 
-.deals {
+.detail {
     color: #f6eeee !important;
     font-size: 17px;
     margin: 20px 54px 0;
@@ -174,7 +174,7 @@
         left: 1px;
     }
 
-    .deals {
+    .detail {
         position: absolute;
         top: 198px;
         left: 0px;
