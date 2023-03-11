@@ -10,13 +10,13 @@
 }
 
 .package {
-    background-color: #f7961c !important;
+    background-color: #f7961c;
     padding: 0.7rem;
     border-radius: 6px;
 }
 
 footer {
-    background-color: #5d3d90 !important;
+    background-color: #5d3d90;
     display: flex;
     justify-content: center;
 }

@@ -1,6 +1,6 @@
 import { Phone } from "phosphor-react";
 import { useForm } from "react-hook-form"
-import TravelDtl from "../travelDetails/TravelDetails";
+import TravelDetails from "../travelDetails/TravelDetails";
 import "./Header.css"
 import { Container } from "./Styled";
 const Header = () => {
@@ -37,7 +37,7 @@ const Header = () => {
 
 
                             <div className="form-wrapper">
-                                <form onSubmit={handleSubmit(onSubmit)} className="form-conatiner">
+                                <form onSubmit={handleSubmit(onSubmit)} className="form-container">
 
                                     <div className="img-align">
                                         <img src="https://kashmirtravelagent.com/images/kta-logo.png" />
@@ -103,7 +103,7 @@ const Header = () => {
 
                 </div>
 
-                <TravelDtl />
+                <TravelDetails />
             </main>
         </>
     )

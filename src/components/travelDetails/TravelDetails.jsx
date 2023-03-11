@@ -41,7 +41,7 @@ const TravelDetails = () => {
                                         <p>
                                             {item.place}
                                         </p>
-                                        <button className="btns">Get Quote</button>
+                                        <button className="card-btn">Get Quote</button>
                                     </div>
                                 </div>
                             </div>

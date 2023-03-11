@@ -1,10 +1,10 @@
 import { Container } from '../header/Styled';
-import './adventure.css'
+import './Adventure.css'
 
 const Adventure = () => {
     return (
         <>
-            <section className="adventure -section">
+            <section className="adventure-section">
                 <div className="adventure-container">
                     <Container>
                         <div className="img-trip">

@@ -1,4 +1,4 @@
-import Advencher from '../adventure/Adventure';
+import Adventure from '../adventure/Adventure';
 import { Container } from '../header/Styled';
 import './Service.css'
 
@@ -66,8 +66,8 @@ const Service = () => {
             <section className='section-tow'>
                 <Container >
                     <div className='section-container' >
-                        <p className=''>
-                            <span className=''>About Kashmir Tourism</span>< br />
+                        <p>
+                            <span>About Kashmir Tourism</span>< br />
                             "Paradise on the Earth" the state is world famous for its scenic splendour, snow-capped mountains, plentiful wildlife, hospitable people and local handicraft.
                             With apple orchards, saffron fields, glittering lakes & breathtaking meadows, Kashmir, in the union territory of Jammu & Kashmir, draws the attention of tourists from across the globe. With tranquil settings, magnificent views, and pristine nature, Kashmir is a perfect holiday destination that should be visited once in a lifetime.
                             While the beautiful Dal and Nigeen lakes in Srinagar offer an opportunity to relish a stay at the houseboat and enjoy a Shikara Ride; the alpine lakes like Tarsar Marsar, Vishnasar, Gadsar Lakes call out the adventure lovers for the best trekking experience.</p>
@@ -80,7 +80,7 @@ const Service = () => {
                 </Container>
             </section>
 
-            <Advencher />
+            <Adventure />
         </>
     )
 }
