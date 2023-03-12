@@ -11,9 +11,9 @@ const Banner = () => {
           <Container>
             <div className="flex">
               <div className="title-heading">
-                <h1 className="txt">
-                  Best Travel Agents In Kashmir <span className="txt-primary"> UP TO 70% OFF </span>{' '}
-                  New Year & Christmas Sale 2023 Offers
+                <h1 className="txt">  
+                  Nulla a massa ante. Fusce non diam magna <span className="txt-primary"> Curabitur pretium</span>{' '}
+                  eu fermentum ullamcorper. Maur
                 </h1>
                 <div className="phone-number">
                   <a href="#">
