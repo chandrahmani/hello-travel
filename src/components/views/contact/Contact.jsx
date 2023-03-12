@@ -50,7 +50,7 @@ const Contact = () => {
             <Input type="mail" placeholder="Gmail" scale="large" className="input" />
             <Input type="number" placeholder="number" scale="large" className="input" />
             <Textarea placeholder="Enter your message" scale="large" className="text-area" />
-            <Button size="large" variant="primary" className="button">
+            <Button size="large" variant="primary" className="button" type="submit">
               Send
             </Button>
           </form>
