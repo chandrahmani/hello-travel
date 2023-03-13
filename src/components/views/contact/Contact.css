@@ -14,18 +14,29 @@ border-radius: 5px;
     padding: 3rem; 
 }
 
+
 .contact-info{
     background-color: #4b4bea;
-    height: 80vh;
+    height: 70vh;
     border-radius: 18px;
     padding: 2rem;
-    width: 64%;
+    width: 100%;
 }
 
 .contact-info h1{
     color: #fff;
     font-size: 27px;
     padding-left: 1rem;
+}
+
+.contact-wrapper h2{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.contact-txt-wrap{
+    text-align: center;
+    padding: 1rem;
 }
 
 .contact-info p {
@@ -35,11 +46,14 @@ border-radius: 5px;
 }
 
 .contact-info h3 {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     color: #d6d3d3;
-    font-size: 15px;
-    padding-top: 2rem;
+    font-size: 10px;
     padding-left: 1rem;
+}
+
+.email.wrap{
+    padding-top: 1rem;
 }
 
 .form-wrap{
@@ -48,6 +62,7 @@ border-radius: 5px;
 
 .number{
     color: #fff;
+    padding-top: 3rem;
 }
 
 
@@ -65,18 +80,20 @@ border-radius: 5px;
 
 .input{
   margin-left: 0.8rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   background: #fff;
   color: #000000;
 }
-
 .text-area{
     margin-left: 0.8rem;
-    margin-top: 1rem;
+    background: #fff;
+    color: #000000;
+    margin-top: 3rem;
 }
 
 .icon-logo{
-    padding-top: 4rem;
+    padding-top: 3.8rem;
+    margin-left: 0.7rem;
 }
 .icon-logo a {
     padding: 0.5rem;

@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
 
                 <span className="number">
-                  <a href="#">Mob: +91 7006036459</a>/<a href="#">+91 9906755156</a>
+                  Mob:<a href="#"> +91 7006036459</a>/<a href="#">+91 9906755156</a>
                 </span>
               </div>
             </div>
