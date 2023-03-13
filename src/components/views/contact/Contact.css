@@ -1,6 +1,7 @@
 .contact-wrapper{
 background-color: #efeded;
 border-radius: 5px;
+margin: 1rem;
 }
 
 .info-container{
@@ -92,7 +93,7 @@ border-radius: 5px;
 }
 
 .icon-logo{
-    padding-top: 3.8rem;
+    padding-top: 4rem;
     margin-left: 0.7rem;
 }
 .icon-logo a {

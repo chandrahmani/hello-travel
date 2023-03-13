@@ -30,26 +30,26 @@ const Contact = () => {
             <div className="email-wrap">
               <div className="number">
                 <h3>
-                  <Phone size={25} /> +91 7006036459 / +91 9906755156
+                  <Phone size={20} /> +91 7006036459 / +91 9906755156
                 </h3>
               </div>
               <div>
                 <h3>
-                  <Envelope size={32} />
+                  <Envelope size={20} />
                   hellotravelsindia@gmail.com
                 </h3>
               </div>
 
               <div>
                 <h3>
-                  <MapPin size={32} /> Head Office: Nowgam near railway station Srinagar Jammu &
+                  <MapPin size={20} /> Head Office: Nowgam near railway station Srinagar Jammu &
                   Kashmir 190015
                 </h3>
               </div>
 
               <div>
                 <h3>
-                  <AddressBook size={32} />
+                  <AddressBook size={20} />
                   1st Floor, Namgyal Complex, Behind Post Office, main Market, Ladakh 194101, ladakh
                   (IND)
                 </h3>
