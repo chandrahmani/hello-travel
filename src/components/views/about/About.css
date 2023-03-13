@@ -1,0 +1,12 @@
+.about-wrapper {
+    padding: 1rem;
+}
+
+.about-section {
+    height: 60vh;
+    display: flex;
+}
+
+.about-container-tow {
+    padding-left: 3rem;
+}

@@ -1,6 +1,5 @@
 .header-info {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   background-image: url(https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/previewImage/PowerfulReasons_hero.jpg);
   height: 90vh;
@@ -27,19 +26,9 @@
   color: #f7961c;
 }
 
-.flex {
-  display: flex;
-  justify-content: end;
-}
-
 .msg {
   display: block;
   margin-left: 3rem;
-}
-
-.info-container {
-  display: flex;
-  justify-content: center;
 }
 
 .txt-style {

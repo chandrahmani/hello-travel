@@ -3,8 +3,8 @@ import Navbar from './components/core/navbar/Navbar';
 import './App.css';
 import Banner from './components/views/home/banner/Banner';
 import TravelDetails from './components/views/home/travelDetails/TravelDetails';
-import Service from './components/views/home/service/Service';
 import Footer from './components/core/footer/Footer';
+import Services from './components/views/home/services/Services';
 
 function App() {
   let { pathname } = useLocation();
@@ -22,7 +22,7 @@ function App() {
         <>
           <Banner />
           <TravelDetails />
-          <Service />
+          <Services />
         </>
       )}
 
