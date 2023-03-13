@@ -22,7 +22,7 @@ const Footer = () => {
                   </ul>
                 </div>
 
-                <span className="number">
+                <span className="mob-number">
                   Mob:<a href="#"> +91 7006036459</a>/<a href="#">+91 9906755156</a>
                 </span>
               </div>
