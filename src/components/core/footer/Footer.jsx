@@ -12,10 +12,12 @@ const Footer = () => {
                 <div className="policy">
                   <ul>
                     <li>
-                      <a href="#">Terms & conditions</a>
+                      <a href="http://127.0.0.1:5174/hello-travel/termcondition">
+                        Terms & conditions
+                      </a>
                     </li>
                     <li>
-                      <a href="#"> Privacy policy</a>
+                      <a href="http://127.0.0.1:5174/hello-travel/privacypolicy"> Privacy policy</a>
                     </li>
                   </ul>
                 </div>

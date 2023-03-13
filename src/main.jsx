@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './components/views/ErrorPage';
 import About from './components/views/about/About';
 import Contact from './components/views/contact/Contact';
+import TermsCondition from './components/views/termsCondition/TermsCondition';
+import PrivacyPolicy from './components/views/privacyPolicy/PrivacyPolicy';
 
 const router = createBrowserRouter(
   [
@@ -22,6 +24,14 @@ const router = createBrowserRouter(
         {
           path: 'contact/',
           element: <Contact />
+        },
+        {
+          path: 'termcondition/',
+          element: <TermsCondition />
+        },
+        {
+          path: 'privacypolicy/',
+          element: <PrivacyPolicy />
         }
       ]
     }
