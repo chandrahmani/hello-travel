@@ -28,7 +28,7 @@ const Contact = () => {
             <p>pellentesque tempus. Suspendisse auctor ex id tristique pharetra.</p>
 
             <div className="email-wrap">
-              <div className="phone-number">
+              <div className="mob-number">
                 <h3>
                   <Phone size={20} /> +91 7006036459 / +91 9906755156
                 </h3>
