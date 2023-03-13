@@ -1,4 +1,12 @@
-import { Envelope, InstagramLogo, LinkedinLogo, MapPin, Phone, WhatsappLogo } from 'phosphor-react';
+import {
+  AddressBook,
+  Envelope,
+  InstagramLogo,
+  LinkedinLogo,
+  MapPin,
+  Phone,
+  WhatsappLogo
+} from 'phosphor-react';
 import React from 'react';
 import { Button, Input, Textarea } from 'react-carbonui';
 import './Contact.css';
@@ -6,29 +14,46 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className="contact-wrapper">
+      <h2>Contact US</h2>
+      <p className="contact-txt-wrap">
+        Praesent vestibulum tincidunt magna ut ultrices. Nullam id ultricies metus, quis sodales
+        turpis. Integer tristique erat ut turpis tristique, vitae accumsan justo maximus.
+        Suspendisse sit amet elementum felis. Aenean ut accumsan mi. Proin pretium laoreet magna in
+        interdum. Donec quam diam, finibus a sapien pharetra, lobortis eleifend nunc. Mauris non
+      </p>
       <div className="contact-container">
         <div className="info-container">
           <div className="contact-info">
             <h1>Contact Information</h1>
             <p>pellentesque tempus. Suspendisse auctor ex id tristique pharetra.</p>
-            <div className="number">
-              <h3>
-                <Phone size={25} /> +91 7006036459 / +91 9906755156
-              </h3>
-            </div>
 
             <div className="email-wrap">
-              <h3>
-                <Envelope size={32} />
-                Hellotravelsindia@gmail.com
-              </h3>
-            </div>
+              <div className="number">
+                <h3>
+                  <Phone size={25} /> +91 7006036459 / +91 9906755156
+                </h3>
+              </div>
+              <div>
+                <h3>
+                  <Envelope size={32} />
+                  hellotravelsindia@gmail.com
+                </h3>
+              </div>
 
-            <div>
-              <h3>
-                <MapPin size={32} /> Head Office: Nowgam near railway station Srinagar Jammu &
-                Kashmir 190015
-              </h3>
+              <div>
+                <h3>
+                  <MapPin size={32} /> Head Office: Nowgam near railway station Srinagar Jammu &
+                  Kashmir 190015
+                </h3>
+              </div>
+
+              <div>
+                <h3>
+                  <AddressBook size={32} />
+                  1st Floor, Namgyal Complex, Behind Post Office, main Market, Ladakh 194101, ladakh
+                  (IND)
+                </h3>
+              </div>
             </div>
 
             <div className="icon-logo">
@@ -56,11 +81,13 @@ const Contact = () => {
               />
               <Input
                 type="number"
-                placeholder="+91 0000000"
+                placeholder="Phone number"
                 fullWidth
                 scale="large"
                 className="input"
               />
+
+              <Textarea fullWidth className="text-area" placeholder="Write your message" />
 
               <div className="btn-wrap">
                 <Button variant="primary" className="button" type="submit">
