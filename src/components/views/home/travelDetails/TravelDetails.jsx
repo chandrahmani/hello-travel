@@ -35,7 +35,7 @@ const TravelDetails = () => {
                       <span className="offers">{item.day}</span>
                       <h3>{item.name}</h3>
                       <h4>{item.package}</h4>
-                      <h5>Rs-/ {item.price}</h5>
+                      <h5>Rs {item.price} /-</h5>
                       <p>{item.place}</p>
                       <button className="card-btn">Get Quote</button>
                     </div>
