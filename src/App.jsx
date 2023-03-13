@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Navbar />
 
-      <section className="container p-2">
+      <section className="container">
         <Outlet />
       </section>
 

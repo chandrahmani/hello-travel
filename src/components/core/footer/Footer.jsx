@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Container } from '../styled';
 import './Footer.css';
 
@@ -8,16 +9,25 @@ const Footer = () => {
         <footer>
           <Container>
             <div className="link-wrapper">
-              <div className="">
-                <ul>
-                  <li>Terms and conditions</li>
-                  <li>Privacy policy</li>
-                </ul>
-              </div>
               <div className="number-wrap">
-                <a href="#" className="number">
-                  Mob: +917006036459 / +91990675515
-                </a>
+                <div className="policy">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <Link to="/termcondition">Terms & conditions</Link>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <Link to="/privacypolicy">Privacy policy</Link>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <span className="mob-number">
+                  Mob:<a href="#"> +91 7006036459</a>/<a href="#">+91 9906755156</a>
+                </span>
               </div>
             </div>
             <div className="link-container">

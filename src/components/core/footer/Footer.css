@@ -12,9 +12,10 @@ footer {
   padding: 1rem;
 }
 
-.number-wrap {
+.number-wrap{
+  display: flex;
+  justify-content: space-between;
   padding: 1rem;
-  text-align: end;
 }
 
 .number-wrapper {
@@ -36,6 +37,22 @@ footer {
   font-size: 13px;
 }
 
+.policy{
+  padding-left: 3rem;
+}
+
 .web-link a:hover {
   color: #8080f1;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a:hover{
+color: #2e2edb;
+}
+
+.number-wrap a:hover{
+  color: #2e2edb;
 }
