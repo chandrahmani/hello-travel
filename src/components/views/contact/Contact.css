@@ -1,14 +1,25 @@
+.contact-wrapper{
+background-color: #efeded;
+border-radius: 5px;
+}
+
+.info-container{
+    display: flex;
+    background-color: #ffff;
+    padding: 0.6rem;
+    border-radius: 24px;
+}
 
 .contact-container{
-    display: flex;
     padding: 3rem; 
 }
+
 .contact-info{
     background-color: #4b4bea;
-    height: 59vh;
-    border-radius: 5px;
-    padding: 3rem;
-    width: 58%;
+    height: 80vh;
+    border-radius: 18px;
+    padding: 2rem;
+    width: 64%;
 }
 
 .contact-info h1{
@@ -18,25 +29,27 @@
 }
 
 .contact-info p {
-    color: #fff;
+    color: #bcb3b3;
     font-size: 15px;
     padding-left: 1rem;
 }
 
+.contact-info h3 {
+    padding-bottom: 2rem;
+    color: #d6d3d3;
+    font-size: 15px;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
 .form-wrap{
-    background-color: #ede9e9;
     padding: 2rem;
-    border-radius: 5px;
-    width: 50%;
 }
 
 .number{
     color: #fff;
 }
-.form{
-    max-width: 240px;
-    margin: auto;
-}
+
 
 .form .button{
     background-color: #4b4bea;
@@ -45,9 +58,16 @@
     margin-top: 1rem;
 }
 
+.btn-wrap{
+    display: flex;
+    justify-content: end;
+}
+
 .input{
   margin-left: 0.8rem;
   margin-top: 1rem;
+  background: #fff;
+  color: #000000;
 }
 
 .text-area{
@@ -56,8 +76,7 @@
 }
 
 .icon-logo{
-    text-align: center;
-    padding-top: 1rem;
+    padding-top: 4rem;
 }
 .icon-logo a {
     padding: 0.5rem;
