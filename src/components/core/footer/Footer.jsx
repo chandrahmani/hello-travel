@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Container } from '../styled';
 import './Footer.css';
 
@@ -12,12 +13,14 @@ const Footer = () => {
                 <div className="policy">
                   <ul>
                     <li>
-                      <a href="http://127.0.0.1:5174/hello-travel/termcondition">
-                        Terms & conditions
+                      <a href="#">
+                        <Link to="/termcondition">Terms & conditions</Link>
                       </a>
                     </li>
                     <li>
-                      <a href="http://127.0.0.1:5174/hello-travel/privacypolicy"> Privacy policy</a>
+                      <a href="#">
+                        <Link to="/privacypolicy">Privacy policy</Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
