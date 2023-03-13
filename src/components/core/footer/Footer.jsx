@@ -7,19 +7,22 @@ const Footer = () => {
       <div>
         <footer>
           <Container>
-            <h1 className="footer-package">
-              ustomize Your Holiday Package With Our Travel Experts
-            </h1>
             <div className="link-wrapper">
+              <div className="">
+                <ul>
+                  <li>Terms and conditions</li>
+                  <li>Privacy policy</li>
+                </ul>
+              </div>
               <div className="number-wrap">
                 <a href="#" className="number">
                   Mob: +917006036459 / +91990675515
                 </a>
               </div>
-              <div className="link-container">
-                <div className="web-link">
-                  © 2023 Copyright: <a href="https://www.webtechpie.com/">webtechpie.com</a>
-                </div>
+            </div>
+            <div className="link-container">
+              <div className="web-link">
+                © 2023 Copyright: <a href="https://www.webtechpie.com/">webtechpie.com</a>
               </div>
             </div>
           </Container>

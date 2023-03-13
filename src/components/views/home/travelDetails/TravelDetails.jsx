@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Container, Flex } from '../../../header/Styled';
 
 import { Container } from '../../../core/styled';
 import './Traval.css';
