@@ -14,7 +14,7 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className="contact-wrapper">
-      <h2>Contact US</h2>
+      <h1>Contact US</h1>
       <p className="contact-txt-wrap">
         Praesent vestibulum tincidunt magna ut ultrices. Nullam id ultricies metus, quis sodales
         turpis. Integer tristique erat ut turpis tristique, vitae accumsan justo maximus.
