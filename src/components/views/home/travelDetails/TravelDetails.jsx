@@ -26,8 +26,8 @@ const TravelDetails = () => {
         <Container>
           <div className="card-flex">
             <Flex display="flex" flexWrap="wrap" justifyContent="center" gap="10px">
-              {data.map((item, id) => (
-                <div className="grid-container" key={id}>
+              {data.map((item, index) => (
+                <div className="grid-container" key={index}>
                   <div className="grid-item">
                     <div className="info-wrapper">
                       <span className="offer">{item.offer}</span>
