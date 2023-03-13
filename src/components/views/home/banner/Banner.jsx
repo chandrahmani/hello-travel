@@ -1,6 +1,7 @@
-import { Container } from '../../../core/styled';
+import { Container, Flex } from '../../../core/styled';
 import { Phone } from 'phosphor-react';
 import './Banner.css';
+
 import QueryForm from '../../../core/queryForm/QueryForm';
 
 const Banner = () => {
